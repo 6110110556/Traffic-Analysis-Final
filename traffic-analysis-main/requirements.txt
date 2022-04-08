@@ -1,0 +1,28 @@
+# pip install -r requirements.txt (require python version 3.7)
+# torch version depend on your host so my host use cuda version 10.2 because Nvifia GeForceGTX1050Ti
+# pip install torch==1.10.0+cu102 torchvision==0.11.1+cu102 torchaudio===0.10.0+cu102 -f https://download.pytorch.org/whl/cu102/torch_stable.html
+# YOLOv5 ----------------------------------------
+
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+# torch>=1.7.0
+# torchvision>=0.8.1
+tqdm>=4.41.0
+
+# plotting ------------------------------------
+
+pandas>=1.1.4
+seaborn>=0.11.0
+
+#  Tool
+easydict
+shapely
+
+# socket ---------------------------------------
+python-socketio
+
